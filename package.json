@@ -1,0 +1,27 @@
+{
+  "name": "tsa-cli",
+  "version": "0.0.1",
+  "description": "TypeScript Application CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tsa-cli": "./index.js"
+  },
+  "keywords": [
+    "typescript",
+    "jest",
+    "cli"
+  ],
+  "author": "D.A.Paula",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.0",
+    "inquirer": "^6.1.0",
+    "lodash": "^4.17.10"
+  }
+}
